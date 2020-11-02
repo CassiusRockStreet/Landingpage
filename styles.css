@@ -1,0 +1,304 @@
+body{
+	padding-top:20px;
+	background:#e1feef !important;
+	overflow-y: hidden;
+	overflow-X: hidden;
+}
+.boxLog{
+	background: #fff;
+	box-shadow: 0px 8px 10px 0px #00000014;
+	padding: 20px 0px 40px 0px;
+	border-radius: 5px;
+	text-align: center;
+	color:#2f2f2f;
+}
+.btn_signup{
+	padding:7px 30px !important;
+	border-radius: 10px !important;
+}
+.btn_signup:hover{
+	color:#2f2f2f !important;
+	background:none !important;
+	border-color:#fff !important;
+}
+.btnlogin{
+	padding:7px 30px !important;
+	border-radius: 10px !important;
+}
+.col-md-3{
+	padding-right: 2px !important;
+}
+.emailSubscription{
+	margin-top:20px;
+}
+input.EmailAddress{
+	width: 20vw !important;
+	border:1px solid green;
+	border-radius: 5px;
+	padding:20px 10px;
+}
+form .submit{
+	padding:10px 40px;
+}
+.ScrollTab{
+	margin-top:27vh;
+}
+.ScrollTab p{
+	text-align: center !important;
+	cursor: pointer;
+}
+.contentContext h1{
+	margin-bottom: 30px;
+}
+.contentContext p{
+	margin-bottom: 20px;
+}
+.boxLog h1{
+	font-size: 4em;
+}
+.boxLog span{
+	font-size:1.2em
+}
+.contextData{
+	margin-top:15vh
+}
+.topBack{
+	background:#c5f6de;
+	position: absolute;
+	top:-45%;
+	left:-15%;
+	height:500px;
+	padding:600px;
+	border-radius:100%;
+	z-index:-1;
+}
+.WhiteBack{
+	background-color: #fff;
+	background-image:url('Backgrund-ticks.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	position: absolute;
+	z-index:-2;
+	top:-50%;
+	left:-15%;
+	height:120vh;
+	width:100vh;
+	padding:940px;
+	border-radius:100%;
+	animation: rotate 60s infinite steps(60);
+	 
+}
+@-webkit-keyframes rotate {
+	100% {
+		transform: rotateZ(-360deg);
+	  }
+}
+
+/* //Laptop Responsive */
+@media screen and (max-width:1024px){
+	.topBack{
+		padding:340px;
+		position: absolute;
+		top: -20%;
+		left: -35%
+	}	
+	.contextData {
+		margin-top: 0px;
+	}
+	.WhiteBack {
+		top: -30%;
+		left: -31%;
+		padding: 570px;
+	}
+	.ScrollTab {
+		margin-top: 15vh;
+	}
+}
+
+@media screen and (min-width:1025px) and (max-width:1279px) {
+	.topBack{
+    	position: absolute;
+    	top: 0%;
+    	left: -34%;
+    	padding: 410px;
+	}	
+	.contextData {
+		margin-top: 11vh;
+	}
+	.WhiteBack {
+		top: -15%;
+    	left: -11%;
+    	padding: 570px;
+	}
+	.ScrollTab {
+		margin-top: 22vh;
+	}
+}
+
+@media screen and (min-width:1280px) and (max-width:1440px) {
+	.topBack{
+		position: absolute;
+		top: -10%;
+		left: -14%;
+    	padding: 410px;
+	}	
+	.contextData {
+		margin-top: 11vh;
+	}
+	.WhiteBack {
+		top: -10%;
+		left: -11%;
+		padding: 650px;
+	}
+	.ScrollTab {
+		margin-top: 22vh;
+	}
+}
+
+@media screen and (min-width:1680px) and (max-width:1920px) {
+	.topBack{
+		position: absolute;
+		top: -5%;
+    	left: -13%;
+    	padding: 440px;
+	}	
+	.contextData {
+		margin-top: 11vh;
+	}
+	.WhiteBack {
+		top: -40%;
+    	left: -25%;
+    	padding: 950px;
+	}
+	.ScrollTab {
+		margin-top: 22vh;
+	}
+}
+@media screen and (min-width:2560px) and (max-width:5120px) {
+	.topBack{
+		position: absolute;
+		top: -25%;
+		left: -13%;
+		padding: 650px;
+	}	
+	.contextData {
+		margin-top: 11vh;
+	}
+	.WhiteBack {
+		top: -40%;
+    	left: -25%;
+    	padding: 50vw;
+	}
+	.ScrollTab {
+		margin-top: 22vh;
+	}
+}
+
+/* //Mobile Responsive */
+
+@media screen and (min-width:768px) and (max-width:1023px){
+	.topBack{
+		padding: 340px;
+		position: absolute;
+		top: 0%;
+		left: -35%;
+	}	
+	.contextData {
+		margin-top: 0px;
+	}
+	.WhiteBack {
+			top: -20%;
+			left: -61%;
+			height: 100vh;
+			padding: 0px;
+			background-position: center;
+	}
+	.ScrollTab {
+		margin-top: 15vh;
+	}
+}
+
+@media screen and (max-width:991px){
+	.boxLog {
+		background: #ffffff3d !important;
+	}
+	.topBack{
+		padding: 340px;
+		position: absolute;
+		top: 0%;
+		left: -35%;
+	}	
+	.contextData {
+		margin-top: 0px;
+	}
+	.WhiteBack {
+			top: -10%;
+			left: -41%;
+			height: 100vh;
+			padding: 0px;
+			background-position: center;
+	}
+	.ScrollTab {
+		margin-top: 15vh;
+	}
+}
+
+@media screen and (max-width:768px){
+	.boxLog {
+		background: #ffffff3d !important;
+	}
+	.topBack{
+		padding: 340px;
+		position: absolute;
+		top: 0%;
+		left: -35%;
+	}	
+	.contextData {
+		margin-top: 0px;
+	}
+	.WhiteBack {
+			top: -10%;
+			left: -41%;
+			height: 100vh;
+			padding: 0px;
+			background-position: center;
+	}
+	.ScrollTab {
+		margin-top: 15vh;
+	}
+}
+
+@media screen and (min-width:320px)  and (max-width:604px){
+	.boxLog {
+		background: #ffffff3d !important;
+	}
+	.topBack{
+		position: absolute;
+    	top: -10%;
+    	left: -55%;
+    	padding: 60vw;
+	}	
+	.contextData {
+		margin-top: 0px;
+	}
+	.WhiteBack {
+			top: -20%;
+			left: -61%;
+			height: 100vh;
+			padding: 0px;
+			background-position: center;
+	}
+	.ScrollTab {
+		margin-top: 15vh;
+	}
+	body{
+		padding-top:20px;
+		background:#e1feef !important;
+		overflow-y: auto !important;
+		overflow-X: hidden;
+	}
+	input.EmailAddress {
+		width: 90vw !important;
+	}
+}
